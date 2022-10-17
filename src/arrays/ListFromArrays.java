@@ -1,13 +1,14 @@
 package arrays;
 
-public class MatrixSearch {
+public class ListFromArrays {
+
     private int[][] jaggedSet;
     private int target;
-    public MatrixSearch(int[][] jaggedSet,int target){
+    public ListFromArrays(int[][] jaggedSet,int target){
         this.jaggedSet =jaggedSet;
         this.target =target;
     }
-    public  void jaggedForLoop(int[][] jaggedSet, int target){
+    public  void jaggedForLoop(){
         int m = this.jaggedSet[0].length;
         int n = this.jaggedSet.length;
         boolean state = false;
